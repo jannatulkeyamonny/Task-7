@@ -5,17 +5,17 @@ body{
     background-image: url("images/banner/banner1.png");
     height: 50rem;
 }
-.header-div{
+.first-div{
     float:right;
     text-align: right;
     margin:140px;
     margin-top: 11rem;
 }
-.ht{
+.ft{
     font-size: 4rem;
     font-weight: 800;
 }
-.hp{
+.fp{
     color:gray;
 }
 .btn-1{
@@ -27,10 +27,6 @@ body{
     font-weight: 700;
     font-size: 15px;
     padding:15px 30px;
-}
-.btn-1:hover{
-  color:rgb(245, 83, 24);
-  background-color: rgba(128, 128, 128, 0.705);
 }
 .m-section{
     display: flex;
@@ -128,10 +124,6 @@ body{
     font-weight: 800;
     border-radius: 6px;
   } 
-  .btn-2:hover{
-    background-color:coral ;
-    color:white;
-  }
   footer{
     background-color: black;
     display:flex;
