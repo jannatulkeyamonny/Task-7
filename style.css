@@ -1,7 +1,6 @@
 body{
     font-family: 'Nunito Sans', sans-serif;
 }
-/* header section */
 .header{
     background-image: url("images/banner/banner1.png");
     height: 50rem;
@@ -33,7 +32,6 @@ body{
   color:rgb(245, 83, 24);
   background-color: rgba(128, 128, 128, 0.705);
 }
-/* main section */
 .m-section{
     display: flex;
 }
@@ -134,7 +132,6 @@ body{
     background-color:coral ;
     color:white;
   }
-  /* footer section */
   footer{
     background-color: black;
     display:flex;
