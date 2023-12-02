@@ -1,0 +1,164 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+/* header section */
+.header{
+    background-image: url("images/banner/banner1.png");
+    height: 50rem;
+}
+.header-div{
+    float:right;
+    text-align: right;
+    margin:140px;
+    margin-top: 11rem;
+}
+.ht{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.hp{
+    color:gray;
+}
+.btn-1{
+    height:50px;
+    background-color: rgb(245, 83, 24);
+    color:white;
+    border:0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    padding:15px 30px;
+}
+.btn-1:hover{
+  color:rgb(245, 83, 24);
+  background-color: rgba(128, 128, 128, 0.705);
+}
+/* main section */
+.m-section{
+    display: flex;
+}
+.mt{
+    font-size: 2.3rem;
+}
+.m-text{
+    color:gray;
+}
+.m-div{
+    margin:200px 60px ;
+}
+.image-wrapper { 
+    position: relative; 
+    display: inline-block; 
+    margin-left: 130px;
+  } 
+   
+  .image-overlay { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  } 
+   
+  .shape { 
+    position: absolute; 
+    top: 57%; 
+    left: 50.5%; 
+    transform: translate(-50%, -50%); 
+    width: 92%; 
+    height: 65%; 
+    background-color: pink; 
+    border: 2px solid pink; 
+    border-radius: 50%;
+    z-index: -1; 
+  }
+  .right-mark{
+    color:green;
+  }
+  .m-section2{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 180px 50px 180px;
+    text-align: center;
+  }
+  .banner{
+    position:relative;
+    display: inline-block;
+    margin-left: 190px;
+    margin-top: 50px;
+  }
+  .banner-overlay{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  .banner-image{
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        z-index: -1; 
+        height:15rem;
+        width:61rem;
+  }
+  .overlay-text { 
+    margin-right: 560px;
+    color: white; 
+    z-index: 1; 
+  } 
+   
+  .overlay-text h2 { 
+    font-size: 2em; 
+    margin-bottom: 0.5em; 
+  } 
+   
+  .btn-2 {
+    font-size: 0.9em; 
+    margin-bottom: 0; 
+    background-color: white;
+    color: rgb(252, 98, 43);
+    border: none;
+    height: 3rem;
+    width:7rem;
+    font-weight: 800;
+    border-radius: 6px;
+  } 
+  .btn-2:hover{
+    background-color:coral ;
+    color:white;
+  }
+  /* footer section */
+  footer{
+    background-color: black;
+    display:flex;
+    color:white;
+    margin-top: 120px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .f1{
+    margin-left: 190px;
+  }
+  .f-image{
+    display:flex;
+  }
+  .f2{
+    margin-left: 17rem;
+  }
+  input{
+    height:3rem;
+    width:16rem;
+    background-color: black;
+    border:1px solid white;
+    border-radius: 6px;
+  }
+  p{
+    color:gray;
+  }
